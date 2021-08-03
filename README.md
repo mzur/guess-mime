@@ -12,6 +12,8 @@ Guess the MIME type from the file extension (Linux only). This can be handy if t
 composer require mzur/guess-mime
 ```
 
+By default this package requires the `/etc/mime.types` file to be present. It can be installed e.g. with the `mime-support` package (Ubuntu) or the `mailcap` package (Alpine). A different file can be configured, too (see below).
+
 ## Usage
 
 ```php
