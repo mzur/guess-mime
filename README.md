@@ -1,5 +1,7 @@
 # Guess MIME
 
+[![Tests](https://github.com/mzur/guess-mime/actions/workflows/php.yml/badge.svg)](https://github.com/mzur/guess-mime/actions/workflows/php.yml)
+
 Guess the MIME type from the file extension (Linux only). This can be handy if the file does not exist or cannot be accessed.
 
 **Warning:** This package should not be used if the file actually exists and can be accessed (e.g. to check user-uploaded files). Use [`finfo_file`](https://www.php.net/manual/en/function.finfo-file.php) for that.
